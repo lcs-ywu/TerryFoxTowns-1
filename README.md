@@ -19,10 +19,8 @@ In the text field, the user inputs:
 
 After the button is pressed, the app shows the following locations in the results label:
 
-St. John’s, NF
-
-Gander, NF
-
+St. John’s, NF<br/>
+Gander, NF<br/>
 South Brook Junction, NF
 
 #### Input/Output Example 2
