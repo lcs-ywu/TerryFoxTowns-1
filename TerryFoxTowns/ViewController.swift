@@ -24,11 +24,10 @@ class ViewController: UIViewController {
         // Reset the label
         resetLabel()
         
-        // Add some repeated text
-        // NOTE TO STUDENTS: Lines 27 to 31 can be removed; they are here as an example.
-        for number in 1...50 {
-            appendToLabel(this: "Example text, line \(number)")
-        }
+        // Add a few lines of text
+        appendToLabel(this: "Sunaina")
+        appendToLabel(this: "Wellesley")
+        appendToLabel(this: "Frisbee")
     }
     
     // Add to the content of the label
