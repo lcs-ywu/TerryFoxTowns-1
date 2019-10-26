@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8161FE32236473A100E301EC /* TerryFoxTowns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerryFoxTowns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8161FE32236473A100E301EC /* Terry Fox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Terry Fox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8161FE35236473A100E301EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8161FE37236473A100E301EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8161FE39236473A100E301EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		8161FE33236473A100E301EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8161FE32236473A100E301EC /* TerryFoxTowns.app */,
+				8161FE32236473A100E301EC /* Terry Fox.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +86,7 @@
 			);
 			name = TerryFoxTowns;
 			productName = TerryFoxTowns;
-			productReference = 8161FE32236473A100E301EC /* TerryFoxTowns.app */;
+			productReference = 8161FE32236473A100E301EC /* Terry Fox.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -295,7 +295,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.TerryFoxTowns;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Terry Fox";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.TerryFoxTowns;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Terry Fox";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
