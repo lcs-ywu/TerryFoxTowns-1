@@ -22,8 +22,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         // Set the text
-        labelOutput.text = """
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec diam et erat accumsan commodo a tempus lacus. Fusce rutrum nisl accumsan, sollicitudin metus vitae, sollicitudin est. Curabitur condimentum posuere ligula. Nulla arcu velit, scelerisque ultrices urna vitae, commodo feugiat ligula. Quisque non vestibulum leo. Praesent et interdum odio, mattis consectetur quam. Pellentesque maximus vulputate lacus eget porttitor. Suspendisse rutrum, risus quis laoreet efficitur, libero dolor tristique nisl, vitae convallis ipsum quam vel tortor. Sed sagittis, lacus vitae pulvinar mattis, sapien tellus laoreet nunc, non luctus leo orci ac turpis. Proin sollicitudin eros et lobortis egestas. Morbi nec nisi sit amet quam consectetur pretium eget eget nibh. Aliquam rutrum luctus nisi, in efficitur sapien pellentesque auctor. Sed hendrerit felis odio. Duis vitae turpis eros. In eu egestas felis.
+        labelOutput.text =
+        """
+            Mauris nec diam
+            et erat accumsan commodo a tempus lacus. Fusce rutrum nisl accumsan, sollicitudin metus vitae, sollicitudin est. Curabitur condimentum posuere ligula. Nulla arcu velit, scelerisque ultrices urna vitae, commodo feugiat ligula. Quisque non vestibulum leo. Praesent et interdum odio, mattis consectetur quam. Pellentesque maximus vulputate lacus eget porttitor. Suspendisse rutrum, risus quis laoreet efficitur, libero dolor tristique nisl, vitae convallis ipsum quam vel tortor. Sed sagittis, lacus vitae pulvinar mattis, sapien tellus laoreet nunc, non luctus leo orci ac turpis. Proin sollicitudin eros et lobortis egestas. Morbi nec nisi sit amet quam consectetur pretium eget eget nibh. Aliquam rutrum luctus nisi, in efficitur sapien pellentesque auctor. Sed hendrerit felis odio. Duis vitae turpis eros. In eu egestas felis.
 
             Vestibulum pharetra orci ac arcu dictum, ut tincidunt nisi bibendum. Suspendisse ac justo purus. Morbi ac placerat nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin sed massa nec justo varius accumsan ac a diam. Proin posuere sagittis magna sed finibus. Vivamus at ornare magna, commodo egestas nisl. Pellentesque a pharetra justo, a cursus sem. Donec rhoncus odio sit amet nisl scelerisque, vitae elementum odio commodo.
 

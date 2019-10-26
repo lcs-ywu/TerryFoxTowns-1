@@ -15,42 +15,66 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Terry Fox Legacy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06D-0G-Xz7">
-                                <rect key="frame" x="16" y="44" width="343" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Terry Fox Legacy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06D-0G-Xz7" userLabel="Title">
+                                <rect key="frame" x="16" y="44" width="343" height="54.666666666666657"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the total kilometres Terry has run e.g.: 2364" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dh5-TK-eVm">
-                                <rect key="frame" x="18" y="96" width="339" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the total kilometres Terry has run e.g.: 2364" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dh5-TK-eVm" userLabel="Input Field">
+                                <rect key="frame" x="18" y="106.66666666666667" width="339" height="34.000000000000014"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="Qgv-Tv-iou"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S83-aJ-iYu">
-                                <rect key="frame" x="27" y="138" width="321" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S83-aJ-iYu" userLabel="Button">
+                                <rect key="frame" x="27" y="148.66666666666666" width="321" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="Aw3-H9-J79"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Show Towns Terry Has Been To"/>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e9h-Yd-LgU" userLabel="Scroll View">
-                                <rect key="frame" x="12" y="187" width="351" height="591"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9h-Yd-LgU" userLabel="Scroll View">
+                                <rect key="frame" x="20" y="190.66666666666669" width="335" height="587.33333333333326"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bRE-ql-qll">
-                                        <rect key="frame" x="0.0" y="0.0" width="351" height="591"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bRE-ql-qll">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="0.0"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="bRE-ql-qll" firstAttribute="leading" secondItem="e9h-Yd-LgU" secondAttribute="leading" id="2KQ-xh-5kP"/>
+                                    <constraint firstItem="bRE-ql-qll" firstAttribute="trailing" secondItem="e9h-Yd-LgU" secondAttribute="trailing" id="8hH-X2-Der"/>
+                                    <constraint firstItem="bRE-ql-qll" firstAttribute="top" secondItem="e9h-Yd-LgU" secondAttribute="top" id="ckZ-PW-Kgk"/>
+                                    <constraint firstItem="bRE-ql-qll" firstAttribute="bottom" secondItem="dWJ-5x-MTx" secondAttribute="bottom" id="mXL-S4-LmU"/>
+                                    <constraint firstItem="bRE-ql-qll" firstAttribute="width" secondItem="e9h-Yd-LgU" secondAttribute="width" id="sit-Vz-ZV7"/>
+                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="dWJ-5x-MTx"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="bMO-HA-3Ly"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Dh5-TK-eVm" firstAttribute="top" secondItem="06D-0G-Xz7" secondAttribute="bottom" constant="8" id="6Qu-IC-zJ6"/>
+                            <constraint firstItem="e9h-Yd-LgU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-20" id="9KE-BE-VC9"/>
+                            <constraint firstItem="06D-0G-Xz7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="GXz-ao-bXg"/>
+                            <constraint firstItem="06D-0G-Xz7" firstAttribute="centerX" secondItem="Dh5-TK-eVm" secondAttribute="centerX" id="GcA-fP-9nV"/>
+                            <constraint firstItem="e9h-Yd-LgU" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="OMY-Oi-5KL"/>
+                            <constraint firstItem="e9h-Yd-LgU" firstAttribute="top" secondItem="S83-aJ-iYu" secondAttribute="bottom" constant="8" id="Vsw-TP-YMK"/>
+                            <constraint firstItem="e9h-Yd-LgU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Zyf-gM-ICa"/>
+                            <constraint firstItem="e9h-Yd-LgU" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="4:5" id="aOy-lf-3Le"/>
+                            <constraint firstItem="06D-0G-Xz7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="daQ-GF-MwN"/>
+                            <constraint firstItem="Dh5-TK-eVm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="gzU-qb-KXS"/>
+                            <constraint firstItem="Dh5-TK-eVm" firstAttribute="centerX" secondItem="S83-aJ-iYu" secondAttribute="centerX" id="luU-on-m2e"/>
+                            <constraint firstItem="e9h-Yd-LgU" firstAttribute="centerX" secondItem="S83-aJ-iYu" secondAttribute="centerX" id="suu-ed-ufy"/>
+                            <constraint firstItem="06D-0G-Xz7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="uMR-vY-Wb7"/>
+                            <constraint firstItem="S83-aJ-iYu" firstAttribute="top" secondItem="Dh5-TK-eVm" secondAttribute="bottom" constant="8" id="vam-Yg-hy7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
