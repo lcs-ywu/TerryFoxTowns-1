@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: Properties
+    // Outlets, constants, and variables defined here will be available for use anywhere below.
+    
+    
+    // MARK: Methods
+    
+    // This method runs once when the view is loaded.
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
