@@ -31,17 +31,17 @@ In the text field, the user inputs:
 
 After the button is pressed, the app shows the following locations in the results label:
 
-St. John’s, NF
-Gander, NF
-South Brook Junction, NF
-Port-Aux-Basques, NF
-Highway 7, NS
-Sheet Harbour, NS
-Dartmouth, NS
-Charlottetown, PEI
-Highway 2, west of Moncton, NB
-Bristol, NB
-Perth-Andover, NB
+St. John’s, NF<br/>
+Gander, NF<br/>
+South Brook Junction, NF<br/>
+Port-Aux-Basques, NF<br/>
+Highway 7, NS<br/>
+Sheet Harbour, NS<br/>
+Dartmouth, NS<br/>
+Charlottetown, PEI<br/>
+Highway 2, west of Moncton, NB<br/>
+Bristol, NB<br/>
+Perth-Andover, NB<br/>
 
 ### Hints
 
