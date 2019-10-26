@@ -24,6 +24,7 @@
 		8161FE3E236473A200E301EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8161FE41236473A200E301EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8161FE43236473A200E301EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8161FE49236487E300E301EC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				8161FE3E236473A200E301EC /* Assets.xcassets */,
 				8161FE40236473A200E301EC /* LaunchScreen.storyboard */,
 				8161FE43236473A200E301EC /* Info.plist */,
+				8161FE49236487E300E301EC /* README.md */,
 			);
 			path = TerryFoxTowns;
 			sourceTree = "<group>";
