@@ -41,6 +41,7 @@
 		8161FE29236473A100E301EC = {
 			isa = PBXGroup;
 			children = (
+				8161FE49236487E300E301EC /* README.md */,
 				8161FE34236473A100E301EC /* TerryFoxTowns */,
 				8161FE33236473A100E301EC /* Products */,
 			);
@@ -64,7 +65,6 @@
 				8161FE3E236473A200E301EC /* Assets.xcassets */,
 				8161FE40236473A200E301EC /* LaunchScreen.storyboard */,
 				8161FE43236473A200E301EC /* Info.plist */,
-				8161FE49236487E300E301EC /* README.md */,
 			);
 			path = TerryFoxTowns;
 			sourceTree = "<group>";
