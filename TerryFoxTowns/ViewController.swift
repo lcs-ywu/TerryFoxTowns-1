@@ -33,32 +33,32 @@ class ViewController: UIViewController {
         prependToLabel(this: "Example town 29")
         prependToLabel(this: "Example town 28")
         prependToLabel(this: "Example town 27")
-//        prependToLabel(this: "Example town 26")
-//        prependToLabel(this: "Example town 25")
-//        prependToLabel(this: "Example town 24")
-//        prependToLabel(this: "Example town 23")
-//        prependToLabel(this: "Example town 22")
-//        prependToLabel(this: "Example town 21")
-//        prependToLabel(this: "Example town 20")
-//        prependToLabel(this: "Example town 19")
-//        prependToLabel(this: "Example town 18")
-//        prependToLabel(this: "Example town 17")
-//        prependToLabel(this: "Example town 16")
-//        prependToLabel(this: "Example town 15")
-//        prependToLabel(this: "Example town 14")
-//        prependToLabel(this: "Example town 13")
-//        prependToLabel(this: "Example town 12")
-//        prependToLabel(this: "Example town 11")
-//        prependToLabel(this: "Example town 10")
-//        prependToLabel(this: "Example town 9")
-//        prependToLabel(this: "Example town 8")
-//        prependToLabel(this: "Example town 7")
-//        prependToLabel(this: "Example town 6")
-//        prependToLabel(this: "Example town 5")
-//        prependToLabel(this: "Example town 4")
-//        prependToLabel(this: "Example town 3")
-//        prependToLabel(this: "Example town 2")
-//        prependToLabel(this: "Example town 1")
+        prependToLabel(this: "Example town 26")
+        prependToLabel(this: "Example town 25")
+        prependToLabel(this: "Example town 24")
+        prependToLabel(this: "Example town 23")
+        prependToLabel(this: "Example town 22")
+        prependToLabel(this: "Example town 21")
+        prependToLabel(this: "Example town 20")
+        prependToLabel(this: "Example town 19")
+        prependToLabel(this: "Example town 18")
+        prependToLabel(this: "Example town 17")
+        prependToLabel(this: "Example town 16")
+        prependToLabel(this: "Example town 15")
+        prependToLabel(this: "Example town 14")
+        prependToLabel(this: "Example town 13")
+        prependToLabel(this: "Example town 12")
+        prependToLabel(this: "Example town 11")
+        prependToLabel(this: "Example town 10")
+        prependToLabel(this: "Example town 9")
+        prependToLabel(this: "Example town 8")
+        prependToLabel(this: "Example town 7")
+        prependToLabel(this: "Example town 6")
+        prependToLabel(this: "Example town 5")
+        prependToLabel(this: "Example town 4")
+        prependToLabel(this: "Example town 3")
+        prependToLabel(this: "Example town 2")
+        prependToLabel(this: "Example town 1")
         
     }
     
@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         
         // 1. Move to next line in the label (\n)
         // 2. Add the new text (newText)
-        labelOutput.text! += newText + "\n" + labelOutput.text!
+        labelOutput.text! = newText + "\n" + labelOutput.text!
         
     }
     
@@ -105,7 +105,6 @@ class ViewController: UIViewController {
     // Then, use the action to obtain the km Terry has run (from the text field) and write logic inside the action to add the towns.
     // Remember, look at the hint given – be sure you review this page:
     // https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID140
-    
     @IBAction func showTowns(_ sender: Any) {
         
         // Dismisses the keyboard (so it does not block the view of the output)
