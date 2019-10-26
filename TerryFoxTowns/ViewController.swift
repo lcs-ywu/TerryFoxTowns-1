@@ -12,14 +12,17 @@ class ViewController: UIViewController {
 
     // MARK: Properties
     // Outlets, constants, and variables defined here will be available for use anywhere below.
-    @IBOutlet weak var labelOutput: UILabel!
+    @IBOutlet weak var scrollView: UIScrollView!
+    var labelOutput = UILabel()
     
     // MARK: Methods
-    
     // This method runs once when the view is loaded.
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        // Initialize the label
+        labelOutput = UILabel(frame: scrollView.frame)
         
         // Set the text
         labelOutput.text = """
@@ -33,7 +36,21 @@ class ViewController: UIViewController {
 
             Duis consequat, odio ac vestibulum convallis, mi metus suscipit nulla, blandit dapibus augue lectus rutrum risus. Nunc et nisi quis odio lobortis mattis. Phasellus ante lorem, sodales porta sapien sed, facilisis egestas ipsum. Etiam pulvinar ac ipsum ac accumsan. In hac habitasse platea dictumst. Nullam accumsan pretium ex eu lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a orci in nunc tincidunt posuere ac vel dolor. Duis id bibendum arcu. Vestibulum volutpat diam ac nisl rutrum condimentum. Aenean eu urna in diam dictum consectetur. Suspendisse auctor turpis vel massa sagittis maximus. In vitae elementum sem, ac commodo tellus. Morbi venenatis nunc imperdiet, vehicula enim vel, semper libero. Etiam ac ipsum metus. Phasellus tempus quam a ex faucibus condimentum.
             """
+        
+        // Set the text appearance inside the label
+        labelOutput.lineBreakMode = .byWordWrapping
+        labelOutput.numberOfLines = 0
+        
+        // Resize the label to fit the current text it contains
         labelOutput.sizeToFit()
+        
+        // Add the label as a subview (child) of the scroll view
+        scrollView.addSubview(labelOutput)
+                
+        // Set the scroll view size now
+        // (width same as it already was, height now matched to new height of label after sizing to fit the content)
+        scrollView.contentSize = CGSize(width: scrollView.contentSize.width
+            , height: labelOutput.frame.size.height)
     }
 
 
